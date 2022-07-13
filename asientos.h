@@ -3,6 +3,8 @@
 
 #include<cine.h>
 
+
+// anahi
 class Asientos : public Cine
 {
 private:
