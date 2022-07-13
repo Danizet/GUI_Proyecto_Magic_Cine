@@ -5,6 +5,8 @@
 
 
 // anahi
+// SAMI
+
 class Asientos : public Cine
 {
 private:
