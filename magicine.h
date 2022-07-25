@@ -2,10 +2,17 @@
 #define MAGICINE_H
 
 #include <QMainWindow>
+#include <QWidget>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Magicine; }
 QT_END_NAMESPACE
+
+class duscene;
+class duscene_2;
+class duscene_3;
+class duscene_4;
+class duscene_5;
 
 class Magicine : public QMainWindow
 {
@@ -17,5 +24,10 @@ public:
 
 private:
     Ui::Magicine *ui;
+    duscene *mScene;
+    duscene_2 *mScene_2;
+    duscene_3 *mScene_3;
+    duscene_4 *mScene_4;
+    duscene_5 *mScene_5;
 };
 #endif // MAGICINE_H

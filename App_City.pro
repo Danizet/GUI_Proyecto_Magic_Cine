@@ -21,7 +21,13 @@ SOURCES += \
     button.cpp \
     cine.cpp \
     costos__fac.cpp \
+    duscene.cpp \
+    duscene_2.cpp \
+    duscene_3.cpp \
+    duscene_4.cpp \
+    duscene_5.cpp \
     facturacion.cpp \
+    gifanimation.cpp \
     main.cpp \
     magicine.cpp \
     menu.cpp \
@@ -38,7 +44,13 @@ HEADERS += \
     button.h \
     cine.h \
     costos__fac.h \
+    duscene.h \
+    duscene_2.h \
+    duscene_3.h \
+    duscene_4.h \
+    duscene_5.h \
     facturacion.h \
+    gifanimation.h \
     magicine.h \
     menu.h \
     pelicula.h \
