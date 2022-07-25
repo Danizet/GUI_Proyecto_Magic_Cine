@@ -5,7 +5,7 @@ duscene_2::duscene_2(QObject *parent)
     : QGraphicsScene(parent)
 {
     mGifAnimation = new GifAnimation(this);
-    mGifAnimation->setFilename("C:/Users/ldpc8/Downloads/ina.gif");
+    mGifAnimation->setFilename("C:/Users/pcgam/Downloads/ina.gif");
     mGifAnimation->startMovie();
     addWidget(mGifAnimation->getWidget());
 

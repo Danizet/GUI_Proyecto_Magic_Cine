@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Magicine</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="Iconos.qrc">
+    <normaloff>:/Recursos/Iconos/Icono_App.png</normaloff>:/Recursos/Iconos/Icono_App.png</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
@@ -83,6 +87,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="Iconos.qrc"/>
+ </resources>
  <connections/>
 </ui>
