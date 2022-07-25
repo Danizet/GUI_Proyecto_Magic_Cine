@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QWidget>
 
+#include "pelicula_1.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class Magicine; }
 QT_END_NAMESPACE
@@ -21,6 +23,9 @@ class Magicine : public QMainWindow
 public:
     Magicine(QWidget *parent = nullptr);
     ~Magicine();
+
+private slots:
+    void on_pushButton_clicked();
 
 private:
     Ui::Magicine *ui;

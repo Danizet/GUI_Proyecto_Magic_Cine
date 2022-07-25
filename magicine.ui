@@ -14,7 +14,7 @@
    <string>Magicine</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="Iconos.qrc">
+   <iconset resource="Recursos.qrc">
     <normaloff>:/Recursos/Iconos/Icono_App.png</normaloff>:/Recursos/Iconos/Icono_App.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -88,7 +88,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="Iconos.qrc"/>
+  <include location="Recursos.qrc"/>
  </resources>
  <connections/>
 </ui>

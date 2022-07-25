@@ -5,7 +5,7 @@ duscene_5::duscene_5(QObject *parent)
     : QGraphicsScene(parent)
 {
     mGifAnimation = new GifAnimation(this);
-    mGifAnimation->setFilename("C:/Users/pcgam/Downloads/5.gif");
+    mGifAnimation->setFilename(":/Recursos/Imagenes cartelera/5.gif");
     mGifAnimation->startMovie();
     addWidget(mGifAnimation->getWidget());
 

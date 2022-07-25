@@ -18,9 +18,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     asientos.cpp \
     boletos.cpp \
-    button.cpp \
     cine.cpp \
-    costos__fac.cpp \
     duscene.cpp \
     duscene_2.cpp \
     duscene_3.cpp \
@@ -32,18 +30,16 @@ SOURCES += \
     magicine.cpp \
     menu.cpp \
     pelicula.cpp \
+    pelicula_1.cpp \
     productoa.cpp \
     productob.cpp \
     productoc.cpp \
-    sala.cpp \
-    tienda.cpp
+    sala.cpp
 
 HEADERS += \
     asientos.h \
     boletos.h \
-    button.h \
     cine.h \
-    costos__fac.h \
     duscene.h \
     duscene_2.h \
     duscene_3.h \
@@ -54,14 +50,15 @@ HEADERS += \
     magicine.h \
     menu.h \
     pelicula.h \
+    pelicula_1.h \
     productoa.h \
     productob.h \
     productoc.h \
-    sala.h \
-    tienda.h
+    sala.h
 
 FORMS += \
-    magicine.ui
+    magicine.ui \
+    pelicula_1.ui
 
 TRANSLATIONS += \
     App_City_es_EC.ts
@@ -75,4 +72,4 @@ DISTFILES += \
     Recursos/Iconos/Logo.png
 
 RESOURCES += \
-    Iconos.qrc
+    Recursos.qrc
