@@ -5,6 +5,11 @@
 #include <QWidget>
 
 #include "pelicula_1.h"
+#include "duscene.h"
+#include "duscene_2.h"
+#include "duscene_3.h"
+#include "duscene_4.h"
+#include "duscene_5.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Magicine; }
@@ -34,5 +39,6 @@ private:
     duscene_3 *mScene_3;
     duscene_4 *mScene_4;
     duscene_5 *mScene_5;
+
 };
 #endif // MAGICINE_H

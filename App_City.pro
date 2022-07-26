@@ -34,7 +34,8 @@ SOURCES += \
     productoa.cpp \
     productob.cpp \
     productoc.cpp \
-    sala.cpp
+    sala.cpp \
+    sala_1.cpp
 
 HEADERS += \
     asientos.h \
@@ -54,11 +55,13 @@ HEADERS += \
     productoa.h \
     productob.h \
     productoc.h \
-    sala.h
+    sala.h \
+    sala_1.h
 
 FORMS += \
     magicine.ui \
-    pelicula_1.ui
+    pelicula_1.ui \
+    sala_1.ui
 
 TRANSLATIONS += \
     App_City_es_EC.ts

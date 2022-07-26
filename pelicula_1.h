@@ -15,6 +15,12 @@ public:
     explicit Pelicula_1(QWidget *parent = nullptr);
     ~Pelicula_1();
 
+private slots:
+    void on_pushButton_2_clicked();
+
+
+    void on_pushButton_clicked();
+
 private:
     Ui::Pelicula_1 *ui;
 };

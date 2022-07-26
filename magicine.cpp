@@ -1,10 +1,6 @@
 #include "magicine.h"
 #include "ui_magicine.h"
-#include "duscene.h"
-#include "duscene_2.h"
-#include "duscene_3.h"
-#include "duscene_4.h"
-#include "duscene_5.h"
+
 
 Magicine::Magicine(QWidget *parent)
     : QMainWindow(parent)
@@ -34,13 +30,11 @@ Magicine::~Magicine()
 
 void Magicine::on_pushButton_clicked()
 {
-
     //Crear un objeto del cuadro de dialogo
     Pelicula_1 *Dialog = new Pelicula_1(this);
-    // Enviar datos a la otra ventana (Establecer version)
-    //Widget->setVersion(VERSION);
     //Mostrar la ventana en modo Modal(que se ejecute delante)
     Dialog->exec();
     // Luego de cerrar la ventana
 }
+
 

@@ -1,4 +1,4 @@
-#include "GifAnimation.h"
+#include "gifanimation.h"
 #include <QLabel>
 #include <QMovie>
 
@@ -15,5 +15,4 @@ void GifAnimation::startMovie()
     mMovie->setFileName(mFilename);
     mMovie->start();
     mLabel->setMovie(mMovie);
-
 }
