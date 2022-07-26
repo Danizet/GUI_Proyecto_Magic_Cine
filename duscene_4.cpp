@@ -1,6 +1,8 @@
 #include "duscene_4.h"
 #include "gifanimation.h"
+
 #include <QLabel>
+
 duscene_4::duscene_4(QObject *parent)
     : QGraphicsScene(parent)
 {

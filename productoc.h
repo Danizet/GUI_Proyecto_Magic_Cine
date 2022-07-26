@@ -11,6 +11,7 @@ class ProductoC:public ProductoA
 {
 private:
     vector<ProductoA *> subproductos;
+
 public:
     ProductoC(int id, string nombre, float precio, vector<ProductoA *> subproductos);
     virtual void mostrarInfo();

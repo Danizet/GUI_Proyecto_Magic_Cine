@@ -16,9 +16,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    asientos.cpp \
-    boletos.cpp \
-    cine.cpp \
     duscene.cpp \
     duscene_2.cpp \
     duscene_3.cpp \
@@ -30,19 +27,14 @@ SOURCES += \
     main.cpp \
     magicine.cpp \
     menu.cpp \
-    pelicula.cpp \
     pelicula_1.cpp \
     productoa.cpp \
     productob.cpp \
     productoc.cpp \
-    sala.cpp \
     sala_1.cpp \
     trailer1.cpp
 
 HEADERS += \
-    asientos.h \
-    boletos.h \
-    cine.h \
     duscene.h \
     duscene_2.h \
     duscene_3.h \
@@ -53,12 +45,10 @@ HEADERS += \
     gifanimation.h \
     magicine.h \
     menu.h \
-    pelicula.h \
     pelicula_1.h \
     productoa.h \
     productob.h \
     productoc.h \
-    sala.h \
     sala_1.h \
     trailer1.h
 
