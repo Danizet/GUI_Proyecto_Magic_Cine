@@ -8,6 +8,4 @@ duscene_5::duscene_5(QObject *parent)
     mGifAnimation->setFilename(":/Recursos/Imagenes cartelera/5.gif");
     mGifAnimation->startMovie();
     addWidget(mGifAnimation->getWidget());
-
-
 }

@@ -35,7 +35,8 @@ SOURCES += \
     productob.cpp \
     productoc.cpp \
     sala.cpp \
-    sala_1.cpp
+    sala_1.cpp \
+    trailer1.cpp
 
 HEADERS += \
     asientos.h \
@@ -56,12 +57,14 @@ HEADERS += \
     productob.h \
     productoc.h \
     sala.h \
-    sala_1.h
+    sala_1.h \
+    trailer1.h
 
 FORMS += \
     magicine.ui \
     pelicula_1.ui \
-    sala_1.ui
+    sala_1.ui \
+    trailer1.ui
 
 TRANSLATIONS += \
     App_City_es_EC.ts
@@ -72,6 +75,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
+    Recursos/Fondos/gestion-reserva-asientos-cine.jpg \
     Recursos/Iconos/Logo.png
 
 RESOURCES += \

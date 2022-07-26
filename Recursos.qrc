@@ -1,10 +1,14 @@
 <RCC>
     <qresource prefix="/">
         <file>Recursos/Iconos/Icono_App.png</file>
+        <file>Recursos/Imagenes cartelera/1.gif</file>
+        <file>Recursos/Imagenes cartelera/2.gif</file>
         <file>Recursos/Imagenes cartelera/3.gif</file>
         <file>Recursos/Imagenes cartelera/4.gif</file>
         <file>Recursos/Imagenes cartelera/5.gif</file>
-        <file>Recursos/Imagenes cartelera/ina.gif</file>
-        <file>Recursos/Imagenes cartelera/tenor.gif</file>
+        <file>Recursos/traillers/QR Code f89c1423-f50b-4de7-bf6e-1d07eea8f815.png</file>
+        <file>Recursos/CArtelera/01.jpg</file>
+        <file>Recursos/Fondos/pngwing.com.png</file>
+        <file>Recursos/Fondos/gestion-reserva-asientos-cine.jpg</file>
     </qresource>
 </RCC>

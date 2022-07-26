@@ -32,6 +32,7 @@ void Sala_1::on_pushButton_2_clicked(bool checked)
 }
 
 
+
 void Sala_1::on_pushButton_3_pressed()
 {
     this->setStyleSheet("QPushButton_3 {background-color: "

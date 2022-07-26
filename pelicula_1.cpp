@@ -2,6 +2,7 @@
 #include "ui_pelicula_1.h"
 
 #include "sala_1.h"
+#include "trailer1.h"
 
 Pelicula_1::Pelicula_1(QWidget *parent) :
     QDialog(parent),
@@ -25,6 +26,15 @@ void Pelicula_1::on_pushButton_clicked()
 {
     //Crear un objeto del cuadro de dialogo
     Sala_1 *Dialog = new Sala_1(this);
+    //Mostrar la ventana en modo Modal(que se ejecute delante)
+    Dialog->exec();
+}
+
+
+void Pelicula_1::on_pushButton_3_clicked()
+{
+    //Crear un objeto del cuadro de dialogo
+    trailer1 *Dialog = new trailer1(this);
     //Mostrar la ventana en modo Modal(que se ejecute delante)
     Dialog->exec();
 }

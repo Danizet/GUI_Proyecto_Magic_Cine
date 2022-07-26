@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1552</width>
-    <height>424</height>
+    <width>1709</width>
+    <height>419</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -25,54 +25,83 @@
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Neo (Keanu Reeves) es un joven pirata informático que lleva una doble vida: durante el día ejerce en una empresa de servicios informáticos, mientras que por la noche se dedica a piratear bases de datos y saltarse sistemas de alta seguridad. Su vida cambiará cuando una noche conozca a Trinity (Carrie-Anne Moss), una misteriosa joven que parece ser una leyenda en el mundo de los 'hackers' informáticos. Será ella quien lleve a Neo ante su líder: Morfeo (Laurence Fishburne). Así descubrirá una terrible realidad y el joven deberá decidir si unirse a la resistencia o vivir su vida como hasta ahora. ¿Elegirá Neo la pastilla azul o la roja? &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(0, 0, 0);</string>
+       <string notr="true">background-color: rgb(0, 0, 0);
+</string>
       </property>
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QGraphicsView" name="graphicsView_2"/>
+     <widget class="QGraphicsView" name="graphicsView_2">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:14px; color:#333333; background-color:#ffffff;&quot;&gt;En el año 2800, en un planeta Tierra devastado y sin vida, tras cientos de solitarios años haciendo aquello para lo que fue construido -limpiar el planeta de basura- el pequeño robot WALL•E (acrónimo de Waste Allocation Load Lifter Earth-Class) descubre una nueva misión en su vida (además de recolectar cosas inservibles) cuando se encuentra con una moderna y lustrosa robot exploradora llamada EVE. Ambos viajarán a lo largo de la galaxia y vivirán una emocionante e inolvidable aventura&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(140, 97, 66);</string>
+      </property>
+     </widget>
     </item>
     <item row="0" column="2">
-     <widget class="QGraphicsView" name="graphicsView_3"/>
+     <widget class="QGraphicsView" name="graphicsView_3">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:14px; color:#333333; background-color:#ffffff;&quot;&gt;Dom Cobb (DiCaprio) es un experto en el arte de apropiarse, durante el sueño, de los secretos del subconsciente ajeno. La extraña habilidad de Cobb le ha convertido en un hombre muy cotizado en el mundo del espionaje, pero también lo ha condenado a ser un fugitivo y, por consiguiente, a renunciar a llevar una vida normal. Su única oportunidad para cambiar de vida será hacer exactamente lo contrario de lo que ha hecho siempre: la incepción, que consiste en implantar una idea en el subconsciente en lugar de sustraerla. Sin embargo, su plan se complica debido a la intervención de alguien que parece predecir cada uno de sus movimientos, alguien a quien sólo Cobb podrá descubrir.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(124, 124, 124);</string>
+      </property>
+     </widget>
     </item>
     <item row="0" column="3">
-     <widget class="QGraphicsView" name="graphicsView_4"/>
+     <widget class="QGraphicsView" name="graphicsView_4">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:14px; color:#333333; background-color:#ffffff;&quot;&gt;Son los años 70 y Gru crece en un barrio residencial, en pleno boom de los peinados cardados y los pantalones de campana. Como fan incondicional de un famoso supergrupo de villanos, 'Los salvajes 6', Gru idea un plan para demostrarles que es lo suficientemente malvado como para trabajar con ellos. Por suerte, cuenta con la ayuda de sus fieles seguidores, los Minions, siempre dispuestos a sembrar el caos por donde pasan. Juntos, Kevin, Stuart, Bob, y Otto -un nuevo Minion con aparato en los dientes y desesperado por sentirse aceptado- desplegarán su potencial para construir junto a Gru su primera guarida, experimentar con sus primeras armas y llevar a cabo sus primeras misiones.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(230, 230, 0)</string>
+      </property>
+     </widget>
     </item>
     <item row="0" column="4">
-     <widget class="QGraphicsView" name="graphicsView_5"/>
+     <widget class="QGraphicsView" name="graphicsView_5">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:14px; color:#333333; background-color:#ffffff;&quot;&gt;Al ver que la vida en la Tierra está llegando a su fin, un grupo de exploradores dirigidos por el piloto Cooper (McConaughey) y la científica Amelia (Hathaway) emprende una misión que puede ser la más importante de la historia de la humanidad: viajar más allá de nuestra galaxia para descubrir algún planeta en otra que pueda garantizar el futuro de la raza humana.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 44, 47);</string>
+      </property>
+     </widget>
     </item>
     <item row="1" column="0">
      <widget class="QPushButton" name="pushButton">
       <property name="text">
-       <string>Pelicula A</string>
+       <string>MATRIX</string>
       </property>
      </widget>
     </item>
     <item row="1" column="1">
      <widget class="QPushButton" name="pushButton_2">
       <property name="text">
-       <string>Pelicula B</string>
+       <string>WALL-E</string>
       </property>
      </widget>
     </item>
     <item row="1" column="2">
      <widget class="QPushButton" name="pushButton_3">
       <property name="text">
-       <string>Pelicula C</string>
+       <string>INCEPTION</string>
       </property>
      </widget>
     </item>
     <item row="1" column="3">
      <widget class="QPushButton" name="pushButton_4">
       <property name="text">
-       <string>Pelicula D</string>
+       <string>MINIONS</string>
       </property>
      </widget>
     </item>
     <item row="1" column="4">
      <widget class="QPushButton" name="pushButton_5">
       <property name="text">
-       <string>Pelicula E</string>
+       <string>INTERESTELLAR</string>
       </property>
      </widget>
     </item>
@@ -83,7 +112,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1552</width>
+     <width>1709</width>
      <height>21</height>
     </rect>
    </property>

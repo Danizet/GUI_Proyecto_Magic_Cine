@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1185</width>
-    <height>717</height>
+    <width>1113</width>
+    <height>700</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,11 +19,14 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>840</x>
-     <y>590</y>
+     <x>860</x>
+     <y>570</y>
      <width>151</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
     <string>Aceptar</string>
@@ -42,7 +45,8 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;mi mama me mimaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+    <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>Neo (Keanu Reeves) es un joven pirata informático que lleva una doble vida: durante el día ejerce en una empresa de servicios informáticos, mientras que por la noche se dedica a piratear bases de datos y saltarse sistemas de alta seguridad. Su vida cambiará cuando una noche conozca a Trinity (Carrie-Anne Moss), una misteriosa joven que parece ser una leyenda en el mundo de los 'hackers' informáticos. Será ella quien lleve a Neo ante su líder: Morfeo (Laurence Fishburne). Así descubrirá una terrible realidad y el joven deberá decidir si unirse a la resistencia o vivir su vida como hasta ahora. ¿Elegirá Neo la pastilla azul o la roja? </string>
@@ -63,14 +67,15 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>590</x>
-     <y>20</y>
-     <width>501</width>
-     <height>181</height>
+     <x>430</x>
+     <y>110</y>
+     <width>631</width>
+     <height>241</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
+    <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>Ficha técnica:
@@ -92,25 +97,12 @@ Interpretación: Keanu Reeves, Lawrence Fishburne, Carrie-Ann Moss, Hugo Weaving
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QLabel" name="label_3">
-   <property name="geometry">
-    <rect>
-     <x>670</x>
-     <y>520</y>
-     <width>101</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Clave insertar vip</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>200</x>
+     <x>190</x>
      <y>20</y>
-     <width>111</width>
+     <width>141</width>
      <height>31</height>
     </rect>
    </property>
@@ -118,7 +110,8 @@ Interpretación: Keanu Reeves, Lawrence Fishburne, Carrie-Ann Moss, Hugo Weaving
     <enum>Qt::LeftToRight</enum>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 300 20pt &quot;Segoe UI&quot;;</string>
+    <string notr="true">font: 700 22pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>MATRIX</string>
@@ -143,35 +136,64 @@ Interpretación: Keanu Reeves, Lawrence Fishburne, Carrie-Ann Moss, Hugo Weaving
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Votaciones positivas&lt;/p&gt;&lt;p&gt;+ 100&lt;/p&gt;&lt;p&gt;Votaciones negativas&lt;/p&gt;&lt;p&gt;- 26&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 0, 4);</string>
-   </property>
-  </widget>
-  <widget class="QWidget" name="widget_2" native="true">
-   <property name="geometry">
-    <rect>
-     <x>600</x>
-     <y>230</y>
-     <width>471</width>
-     <height>271</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 0, 4);</string>
+    <string notr="true">image: url(:/Recursos/CArtelera/01.jpg);</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>660</x>
-     <y>590</y>
+     <x>680</x>
+     <y>570</y>
      <width>151</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
     <string>Cancelar</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>410</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Trailer</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1111</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Recursos/Fondos/pngwing.com.png);
+background-color: rgb(0, 0, 0);</string>
+   </property>
+  </widget>
+  <zorder>widget_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_4</zorder>
+  <zorder>widget</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
  </widget>
  <resources/>
  <connections/>
