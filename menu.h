@@ -13,9 +13,11 @@
 
 class Menu : public Facturacion
 {
+
 private:
     vector<ProductoA *> productos;
     void generarDatos();
+// Creacion de variables para el menu de los combos
 public:
     Menu();
     int activarMenu();

@@ -7,6 +7,7 @@ using namespace std;
 
 class Boletos
 {
+// Creacion de variables para los boletos
 private:
     string nombre;
     int sala;
