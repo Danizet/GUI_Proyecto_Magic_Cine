@@ -12,6 +12,7 @@ using namespace std;
 class Facturacion{
 
 private:
+    //Variables para la facturacion
     int cantidadBoletos;
     float IVA;
     string nombre;

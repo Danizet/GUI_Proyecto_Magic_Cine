@@ -10,6 +10,7 @@ using namespace std;
 class Pelicula
 {
 private:
+    //Variables para agendar al cliente
     string nombre;
     int id;
     string titulo;
