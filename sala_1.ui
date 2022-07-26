@@ -6,526 +6,461 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1071</width>
-    <height>677</height>
+    <width>768</width>
+    <height>637</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QToolBox" name="toolBox">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>50</y>
-     <width>751</width>
-     <height>591</height>
-    </rect>
-   </property>
-   <property name="currentIndex">
-    <number>0</number>
-   </property>
-   <widget class="QWidget" name="page">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>751</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <attribute name="label">
-     <string>9:00 A.M.</string>
-    </attribute>
-    <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="0">
-      <widget class="QTabWidget" name="tabWidget_4">
-       <property name="styleSheet">
-        <string notr="true">border-image: url(:/Recursos/Fondos/gestion-reserva-asientos-cine.jpg);</string>
-       </property>
-       <property name="currentIndex">
-        <number>0</number>
-       </property>
-       <widget class="QWidget" name="tab_15">
-        <attribute name="title">
-         <string>Sala 1</string>
-        </attribute>
-        <widget class="QCheckBox" name="checkBox">
-         <property name="geometry">
-          <rect>
-           <x>20</x>
-           <y>330</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
+  <layout class="QGridLayout" name="gridLayout_5">
+   <item row="2" column="1">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Comprar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QToolBox" name="toolBox">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>750</width>
+        <height>469</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>9:00 A.M.</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QTabWidget" name="tabWidget_4">
          <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+          <string notr="true">border-image: url(:/Recursos/Fondos/gestion-reserva-asientos-cine.jpg);</string>
          </property>
-         <property name="text">
-          <string/>
+         <property name="currentIndex">
+          <number>0</number>
          </property>
+         <widget class="QWidget" name="tab_15">
+          <attribute name="title">
+           <string>Sala 1</string>
+          </attribute>
+          <widget class="QCheckBox" name="A1">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>330</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="A2">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>330</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="A3">
+           <property name="geometry">
+            <rect>
+             <x>170</x>
+             <y>330</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="A4">
+           <property name="geometry">
+            <rect>
+             <x>240</x>
+             <y>330</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="A5">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>330</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="A6">
+           <property name="geometry">
+            <rect>
+             <x>390</x>
+             <y>330</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="A7">
+           <property name="geometry">
+            <rect>
+             <x>460</x>
+             <y>330</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="A8">
+           <property name="geometry">
+            <rect>
+             <x>540</x>
+             <y>330</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="A9">
+           <property name="geometry">
+            <rect>
+             <x>610</x>
+             <y>330</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="A10">
+           <property name="geometry">
+            <rect>
+             <x>690</x>
+             <y>330</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="B1">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>400</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="B2">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>400</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="B3">
+           <property name="geometry">
+            <rect>
+             <x>170</x>
+             <y>400</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="B4">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>400</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="B5">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>400</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="B6">
+           <property name="geometry">
+            <rect>
+             <x>400</x>
+             <y>400</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="B7">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>400</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="B8">
+           <property name="geometry">
+            <rect>
+             <x>540</x>
+             <y>400</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="B9">
+           <property name="geometry">
+            <rect>
+             <x>610</x>
+             <y>400</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="B10">
+           <property name="geometry">
+            <rect>
+             <x>690</x>
+             <y>400</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="tab_16">
+          <attribute name="title">
+           <string>Sala 2</string>
+          </attribute>
+         </widget>
         </widget>
-        <widget class="QCheckBox" name="checkBox_2">
-         <property name="geometry">
-          <rect>
-           <x>100</x>
-           <y>330</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>750</width>
+        <height>469</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>12:00 P.M.</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QTabWidget" name="tabWidget_5">
          <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+          <string notr="true">border-image: url(:/Recursos/Fondos/gestion-reserva-asientos-cine.jpg);</string>
          </property>
-         <property name="text">
-          <string/>
+         <property name="currentIndex">
+          <number>1</number>
          </property>
+         <widget class="QWidget" name="tab_20">
+          <attribute name="title">
+           <string>Sala 2</string>
+          </attribute>
+         </widget>
+         <widget class="QWidget" name="tab_22">
+          <attribute name="title">
+           <string>Sala 4</string>
+          </attribute>
+         </widget>
         </widget>
-        <widget class="QCheckBox" name="checkBox_3">
-         <property name="geometry">
-          <rect>
-           <x>170</x>
-           <y>330</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>750</width>
+        <height>469</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>6:00 P.M.</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QTabWidget" name="tabWidget_7">
          <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+          <string notr="true">border-image: url(:/Recursos/Fondos/gestion-reserva-asientos-cine.jpg);</string>
          </property>
-         <property name="text">
-          <string/>
+         <property name="currentIndex">
+          <number>1</number>
          </property>
+         <widget class="QWidget" name="tab_27">
+          <attribute name="title">
+           <string>Sala 1</string>
+          </attribute>
+         </widget>
+         <widget class="QWidget" name="tab_29">
+          <attribute name="title">
+           <string>Sala 3</string>
+          </attribute>
+         </widget>
         </widget>
-        <widget class="QCheckBox" name="checkBox_4">
-         <property name="geometry">
-          <rect>
-           <x>240</x>
-           <y>330</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_5">
-         <property name="geometry">
-          <rect>
-           <x>320</x>
-           <y>330</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_6">
-         <property name="geometry">
-          <rect>
-           <x>390</x>
-           <y>330</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_7">
-         <property name="geometry">
-          <rect>
-           <x>460</x>
-           <y>330</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_8">
-         <property name="geometry">
-          <rect>
-           <x>540</x>
-           <y>330</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_9">
-         <property name="geometry">
-          <rect>
-           <x>610</x>
-           <y>330</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_10">
-         <property name="geometry">
-          <rect>
-           <x>690</x>
-           <y>330</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_11">
-         <property name="geometry">
-          <rect>
-           <x>30</x>
-           <y>400</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_12">
-         <property name="geometry">
-          <rect>
-           <x>100</x>
-           <y>400</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_13">
-         <property name="geometry">
-          <rect>
-           <x>170</x>
-           <y>400</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_14">
-         <property name="geometry">
-          <rect>
-           <x>250</x>
-           <y>400</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_15">
-         <property name="geometry">
-          <rect>
-           <x>320</x>
-           <y>400</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_16">
-         <property name="geometry">
-          <rect>
-           <x>400</x>
-           <y>400</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_17">
-         <property name="geometry">
-          <rect>
-           <x>470</x>
-           <y>400</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_18">
-         <property name="geometry">
-          <rect>
-           <x>540</x>
-           <y>400</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_19">
-         <property name="geometry">
-          <rect>
-           <x>610</x>
-           <y>400</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QCheckBox" name="checkBox_20">
-         <property name="geometry">
-          <rect>
-           <x>690</x>
-           <y>400</y>
-           <width>16</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </widget>
-       <widget class="QWidget" name="tab_16">
-        <attribute name="title">
-         <string>Sala 2</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_17">
-        <attribute name="title">
-         <string>Sala 3</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_18">
-        <attribute name="title">
-         <string>Sala 4</string>
-        </attribute>
-       </widget>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="page_2">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>751</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <attribute name="label">
-     <string>12:00 P.M.</string>
-    </attribute>
-    <layout class="QGridLayout" name="gridLayout_2">
-     <item row="0" column="0">
-      <widget class="QTabWidget" name="tabWidget_5">
-       <property name="styleSheet">
-        <string notr="true">border-image: url(:/Recursos/Fondos/gestion-reserva-asientos-cine.jpg);</string>
-       </property>
-       <property name="currentIndex">
-        <number>0</number>
-       </property>
-       <widget class="QWidget" name="tab_19">
-        <attribute name="title">
-         <string>Sala 1</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_20">
-        <attribute name="title">
-         <string>Sala 2</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_21">
-        <attribute name="title">
-         <string>Sala 3</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_22">
-        <attribute name="title">
-         <string>Sala 4</string>
-        </attribute>
-       </widget>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="page_4">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>751</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <attribute name="label">
-     <string>3:00 P.M.</string>
-    </attribute>
-    <layout class="QGridLayout" name="gridLayout_3">
-     <item row="0" column="0">
-      <widget class="QTabWidget" name="tabWidget_6">
-       <property name="styleSheet">
-        <string notr="true">border-image: url(:/Recursos/Fondos/gestion-reserva-asientos-cine.jpg);</string>
-       </property>
-       <property name="currentIndex">
-        <number>0</number>
-       </property>
-       <widget class="QWidget" name="tab_23">
-        <attribute name="title">
-         <string>Sala 1</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_24">
-        <attribute name="title">
-         <string>Sala 2</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_25">
-        <attribute name="title">
-         <string>Sala 3</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_26">
-        <attribute name="title">
-         <string>Sala 4</string>
-        </attribute>
-       </widget>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="page_3">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>751</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <attribute name="label">
-     <string>6:00 P.M.</string>
-    </attribute>
-    <layout class="QGridLayout" name="gridLayout_4">
-     <item row="0" column="0">
-      <widget class="QTabWidget" name="tabWidget_7">
-       <property name="styleSheet">
-        <string notr="true">border-image: url(:/Recursos/Fondos/gestion-reserva-asientos-cine.jpg);</string>
-       </property>
-       <property name="currentIndex">
-        <number>0</number>
-       </property>
-       <widget class="QWidget" name="tab_27">
-        <attribute name="title">
-         <string>Sala 1</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_28">
-        <attribute name="title">
-         <string>Sala 2</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_29">
-        <attribute name="title">
-         <string>Sala 3</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_30">
-        <attribute name="title">
-         <string>Sala 4</string>
-        </attribute>
-       </widget>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-  </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>

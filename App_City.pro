@@ -25,6 +25,7 @@ SOURCES += \
     duscene_4.cpp \
     duscene_5.cpp \
     facturacion.cpp \
+    facturera.cpp \
     gifanimation.cpp \
     main.cpp \
     magicine.cpp \
@@ -48,6 +49,7 @@ HEADERS += \
     duscene_4.h \
     duscene_5.h \
     facturacion.h \
+    facturera.h \
     gifanimation.h \
     magicine.h \
     menu.h \
@@ -61,6 +63,7 @@ HEADERS += \
     trailer1.h
 
 FORMS += \
+    facturera.ui \
     magicine.ui \
     pelicula_1.ui \
     sala_1.ui \

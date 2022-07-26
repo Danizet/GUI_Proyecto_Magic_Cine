@@ -18,13 +18,7 @@ public:
 private slots:
     void on_pushButton_clicked();
 
-    void on_pushButton_2_clicked(bool checked);
-
-    void on_pushButton_3_pressed();
-
-    void on_pushButton_4_released();
-
-    void on_pushButton_5_toggled(bool checked);
+    void on_pushButton_2_clicked();
 
 private:
     Ui::Sala_1 *ui;
