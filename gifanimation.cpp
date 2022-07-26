@@ -1,4 +1,5 @@
 #include "gifanimation.h"
+
 #include <QLabel>
 #include <QMovie>
 

@@ -17,9 +17,9 @@ protected:
 public:
     ProductoA();
     ProductoA(int id, string nombre, float precio);
-        float getPrecio();
-        virtual void mostrarInfo();
-        string getNombre();
+    float getPrecio();
+    virtual void mostrarInfo();
+    string getNombre();
 };
 
 #endif // PRODUCTOA_H

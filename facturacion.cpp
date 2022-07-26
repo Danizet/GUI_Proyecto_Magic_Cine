@@ -70,7 +70,7 @@ string Facturacion::factura()
             " Subtotal: " + to_string(this->subtotal) + "\n" +
             " IVA: " + to_string(this->IVA) + "\n" +
             " Total de la Compra: " + to_string(this->total) + "\n\n";
-            system("color a");
+    system("color a");
     return str;
 }
 
