@@ -1,6 +1,5 @@
 #include "facturacion.h"
-#include "menu.h"
-
+/*
 Menu m;
 
 Facturacion::Facturacion()
@@ -74,4 +73,4 @@ string Facturacion::factura()
     return str;
 }
 
-
+*/

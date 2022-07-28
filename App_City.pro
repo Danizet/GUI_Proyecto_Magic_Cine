@@ -26,11 +26,7 @@ SOURCES += \
     gifanimation.cpp \
     main.cpp \
     magicine.cpp \
-    menu.cpp \
     pelicula_1.cpp \
-    productoa.cpp \
-    productob.cpp \
-    productoc.cpp \
     sala_1.cpp \
     trailer1.cpp
 
@@ -44,7 +40,6 @@ HEADERS += \
     facturera.h \
     gifanimation.h \
     magicine.h \
-    menu.h \
     pelicula_1.h \
     productoa.h \
     productob.h \
